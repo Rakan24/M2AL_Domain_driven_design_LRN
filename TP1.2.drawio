@@ -1,0 +1,199 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" modified="2026-03-31T08:02:58.757Z" version="23.1.5" etag="YR2xX0V7Cr8f3-wzV-sE" type="device">
+  <diagram name="Page-1" id="y3_61l-6jFXyInKRoK1F">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-1" value="&lt;b&gt;Acteurs :&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Clients&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;Responsable e-commerce&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;Service de paiement&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;Service logistique&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;Préparateur de commandes&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Transporteur&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-2" value="&lt;b&gt;Commandes métier&amp;nbsp;:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;AjouterProduitAuPanier&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;ValiderPanier&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PasserCommande&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;EffectuerPaiement&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PréparerCommande&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;ExpédierCommande&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;LivrerCommande&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;AnnulerCommande&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;NotifierClient&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="250" y="10" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-3" value="&lt;b&gt;Événements métier&amp;nbsp;:&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;ProduitAjoutéAuPanier&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PanierValidé&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeCréée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PaiementInitié&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PaiementValidé&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeConfirmée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeTransmiseALogistique&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandePréparée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeExpédiée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeLivrée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;ClientNotifié&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;PaiementRefusé&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;CommandeAnnulée&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;-&amp;nbsp;StockInsuffisantDétecté&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="490" y="10" width="210" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-5" value="FLUX MÉTIER PRINCIPAL (Client)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9" y="280" width="1451" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-6" target="YxZX5mOH-W0FbsbdsSTA-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-6" value="AjouterProduitAuPanier" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-8" value="ProduitAjoutéAuPanier" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-11" target="YxZX5mOH-W0FbsbdsSTA-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="104.38461538461524" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-11" target="YxZX5mOH-W0FbsbdsSTA-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-11" value="EffectuerPaiement" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="504" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-12" target="YxZX5mOH-W0FbsbdsSTA-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-12" value="PaiementInitié" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="504" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-14" target="YxZX5mOH-W0FbsbdsSTA-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-14" value="ValiderPanier" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-15" value="PanierValidé" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-17" target="YxZX5mOH-W0FbsbdsSTA-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-17" value="PasserCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="450" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-18" target="YxZX5mOH-W0FbsbdsSTA-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="735" y="460" />
+            </Array>
+            <mxPoint x="734.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-18" value="CommandeCréée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="654.5" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-19" target="YxZX5mOH-W0FbsbdsSTA-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-19" value="PaiementValidé" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="450" y="504" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-20" target="YxZX5mOH-W0FbsbdsSTA-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-20" value="CommandeConfirmée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="640" y="504" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-21" value="CommandeTransmiseALogistique" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="827" y="504" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-25" value="FLUX MÉTIER PRINCIPAL (Service logistique / Préparateur de commandes)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="645" width="1451" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-26" value="FLUX MÉTIER PRINCIPAL (Transporteur)" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="780" width="1451" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-28" target="YxZX5mOH-W0FbsbdsSTA-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-28" value="LivrerCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="830" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-29" value="CommandeLivrée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="830" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-31" target="YxZX5mOH-W0FbsbdsSTA-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-31" value="NotifierClient" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="830" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-32" value="ClientNotifié" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="830" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-34" target="YxZX5mOH-W0FbsbdsSTA-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-34" value="PréparerCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-35" value="CommandePréparée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-37" target="YxZX5mOH-W0FbsbdsSTA-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-37" value="ExpédierCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="440" y="700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-38" value="CommandeExpédiée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="700" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-40" target="YxZX5mOH-W0FbsbdsSTA-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-40" value="PaiementRefusé" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="130" y="574" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-42" target="YxZX5mOH-W0FbsbdsSTA-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-42" value="NotifierClient" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="329" y="574" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-44" target="YxZX5mOH-W0FbsbdsSTA-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-44" value="ClientNotifié" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="540" y="574" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-47" target="YxZX5mOH-W0FbsbdsSTA-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-47" value="AnnulerCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="740" y="574" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-48" value="CommandeAnnulée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="950" y="574" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-50" target="YxZX5mOH-W0FbsbdsSTA-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-50" value="StockInsuffisantDétecté" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="857" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-52" target="YxZX5mOH-W0FbsbdsSTA-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-52" value="NotifierClient" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="852" y="340" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-54" target="YxZX5mOH-W0FbsbdsSTA-56" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-54" value="ClientNotifié" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="1" source="YxZX5mOH-W0FbsbdsSTA-56" target="YxZX5mOH-W0FbsbdsSTA-58" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-56" value="AnnulerCommande" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1065" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxZX5mOH-W0FbsbdsSTA-58" value="CommandeAnnulée" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="1270" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
